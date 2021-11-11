@@ -1,0 +1,27 @@
+body {
+    background-color: #555;
+    font-size: 25px;
+    color: #fff;
+}
+#menu nav{
+    position: relative;
+    margin-left: 500px;
+    margin-right: 100px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+#menu nav ul{
+    list-style: none;
+}
+#menu nav li{
+    display: inline;
+    margin-left: 20px;
+}
+#menu nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+#menu nav ul li a:hover{
+    color: grey;
+    transition: 1.5s;
+}
